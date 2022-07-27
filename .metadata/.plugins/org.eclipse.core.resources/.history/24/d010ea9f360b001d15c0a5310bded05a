@@ -1,0 +1,49 @@
+/*
+ ============================================================================
+ Name        : sample.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int num1=1,num2,answer,array,array2;
+	printf("please enter 1 number");
+	fflush(stdout);
+	scanf("%d",&num2);
+	answer=num1*num2;
+	printf("%d x %d = %d\n",num1,num2,answer);
+	answer=num2+answer;
+	array=num1+num1;
+	printf("%d x %d = %d\n",array,num2,answer);
+	answer=num2+answer;
+	array2=num1+array;
+	printf("%d x %d = %d\n",array2,answer);
+	answer=num2+answer;
+	array=num1+array2;
+	printf("%d x %d = %d\n",array,answer);
+	answer=num2+answer;
+	array2=num1+array;
+	printf("%d x %d = %d\n",array2,answer);
+	answer=num2+answer;
+	array=num1+array2;
+	printf("%d x %d = %d\n",array,answer);
+	answer=num2+answer;
+	array2=num1+array;
+	printf("%d x %d = %d\n",array2,answer);
+	answer=num2+answer;
+	array=num1+array2;
+	printf("%d x %d = %d\n",array,answer);
+	answer=num2+answer;
+	array2=num1+array;
+	printf("%d x %d = %d\n",array2,answer);
+	answer=num2+answer;
+	array=num1+array2;
+	printf("%d x %d = %d\n",array,answer);
+	return EXIT_SUCCESS;
+}

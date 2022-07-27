@@ -1,0 +1,7 @@
+15:19:35 **** Rebuild of configuration Debug for project program 1-hello world ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\program 1-hello world.o" "..\\src\\program 1-hello world.c" 
+gcc -o "program 1-hello world.exe" "src\\program 1-hello world.o" 
+
+15:19:35 Build Finished. 0 errors, 0 warnings. (took 277ms)
+

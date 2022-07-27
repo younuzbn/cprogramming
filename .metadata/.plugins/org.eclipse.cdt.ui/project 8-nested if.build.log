@@ -1,0 +1,25 @@
+11:30:39 **** Incremental Build of configuration Debug for project project 8-nested if ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project 8-nested if.o" "..\\src\\project 8-nested if.c" 
+..\src\project 8-nested if.c: In function 'main':
+..\src\project 8-nested if.c:20:2: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  if(age<18);
+  ^~
+..\src\project 8-nested if.c:21:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'if'
+  {
+  ^
+..\src\project 8-nested if.c:25:2: error: 'else' without a previous 'if'
+  else
+  ^~~~
+..\src\project 8-nested if.c:27:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if(age>=18 && age<=60);
+     ^~
+..\src\project 8-nested if.c:28:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'if'
+      {
+      ^
+..\src\project 8-nested if.c:32:6: error: 'else' without a previous 'if'
+      else
+      ^~~~
+
+11:30:39 Build Failed. 2 errors, 2 warnings. (took 88ms)
+

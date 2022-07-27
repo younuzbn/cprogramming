@@ -1,0 +1,5 @@
+21:32:35 **** Incremental Build of configuration Debug for project project sum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\project sum.o" "..\\src\\project sum.c" 
+gcc -o "project sum.exe" "src\\project sum.o" 
+Info: Nothing to build for project sum

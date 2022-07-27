@@ -1,0 +1,30 @@
+/*
+ ============================================================================
+ Name        : sample.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int num1=1,num2,answer;
+	printf("please enter 1 number");
+	fflush(stdout);
+	scanf("%d",&num2);
+	answer=num1*num2;
+	printf("%d x %d = %d",num1,num2,answer);
+	answer=num2+answer;
+	printf("2 x %d = %d",num2,answer);
+	answer=num2+answer;
+	printf("3 x %d = %d",num2,answer);
+	answer=num2+answer;
+	printf("4 x %d = %d",num2,answer);
+	answer=num2+answer;
+	printf("5 x %d = %d",num2,answer);
+	return EXIT_SUCCESS;
+}
